@@ -9,8 +9,8 @@ import (
 	"sync"
 	"time"
 
-	"go.etcd.io/etcd/clientv3"
-	"go.etcd.io/etcd/pkg/transport"
+	"go.etcd.io/etcd/client/pkg/v3/transport"
+	clientv3 "go.etcd.io/etcd/client/v3"
 )
 
 const DefaultPrefix = "/chart_backend_bucket"
